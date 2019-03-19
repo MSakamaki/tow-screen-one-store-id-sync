@@ -12,7 +12,19 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2017", "dom"],
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@tow-screen-one-store-id-sync/store/core": [
+        "libs/store/core/src/index.ts"
+      ],
+      "@tow-screen-one-store-id-sync/features/page-one": [
+        "libs/features/page-one/src/index.ts"
+      ],
+      "@tow-screen-one-store-id-sync/features/page-tow": [
+        "libs/features/page-tow/src/index.ts"
+      ],
+      "@tow-screen-one-store-id-sync/utils": ["libs/utils/src/index.ts"],
+      "@tow-screen-one-store-id-sync/store/sub": ["libs/store/sub/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

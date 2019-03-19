@@ -1,0 +1,17 @@
+{
+  "extends": "../../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "tow-screen-one-store-id-sync",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "tow-screen-one-store-id-sync",
+      "kebab-case"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+<p>tow page {{ core.selectedCore$ | async | json }}</p>
+<p [routerLink]="['child', 'a']">Child A</p>
+<p [routerLink]="['child', 'b']">Child B</p>
+
+<router-outlet></router-outlet>

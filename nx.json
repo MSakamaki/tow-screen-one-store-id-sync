@@ -7,5 +7,27 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "client": {
+      "tags": []
+    },
+    "client-e2e": {
+      "tags": []
+    },
+    "store-core": {
+      "tags": []
+    },
+    "features-page-one": {
+      "tags": []
+    },
+    "features-page-tow": {
+      "tags": []
+    },
+    "utils": {
+      "tags": []
+    },
+    "store-sub": {
+      "tags": []
+    }
+  }
 }

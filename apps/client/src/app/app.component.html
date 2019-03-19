@@ -1,0 +1,10 @@
+<nav>
+  <p *ngFor="let item of (core.allCore$ | async)">
+    <a [routerLink]="['/page-one', item.id]"> Page-1: {{ item.name }} </a>
+  </p>
+  <p *ngFor="let item of (core.allCore$ | async)">
+    <a [routerLink]="['/page-tow/sub', item.id]"> Page-2: {{ item.name }} </a>
+  </p>
+</nav>
+
+<router-outlet></router-outlet>

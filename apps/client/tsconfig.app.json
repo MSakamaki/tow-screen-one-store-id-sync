@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc/apps/client",
+    "types": []
+  },
+  "exclude": ["src/test-setup.ts", "**/*.spec.ts"],
+  "include": [
+    "**/*.ts",
+    "../../libs/features/page-one/src/index.ts",
+    "../../libs/features/page-tow/src/index.ts"
+  ]
+}
